@@ -15,9 +15,3 @@ jobs:
         with:
           username: christopher2p
           password: ${{ secrets.PASSWORD_DOCKERHUB }}
-
-      with:
-  # Username used to log against the Docker registry
-          username: christopher2p
-  # Password or personal access token used to log against the Docker registry
-          password: ${{ secrets.PASSWORD_DOCKERHUB }}
