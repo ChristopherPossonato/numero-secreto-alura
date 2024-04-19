@@ -21,7 +21,7 @@ jobs:
       uses: docker/login-action@v2.0.0
       with:
         username: christopher2p
-        password: ${{ secrets.PASSWORD_DOCKER_HUB }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build and run Docker container
       run: |
@@ -40,4 +40,4 @@ jobs:
         npm install
         npm run build
 
-
+ 
